@@ -1,0 +1,18 @@
+<gradleEnterprise>
+    <server>
+        <url>https://localhost</url>
+        <allowUntrusted>true</allowUntrusted>
+    </server>
+    <buildScan>
+        <captureGoalInputFiles>true</captureGoalInputFiles>
+    </buildScan>
+    <buildCache>
+        <local>
+            <enabled>false</enabled>
+        </local>
+        <remote>
+            <enabled>true</enabled>
+            <storeEnabled>true</storeEnabled>
+        </remote>
+    </buildCache>
+</gradleEnterprise>

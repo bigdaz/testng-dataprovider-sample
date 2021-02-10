@@ -1,0 +1,6 @@
+build
+target
+.mvn/.gradle-enterprise/gradle-enterprise-workspace-id
+.idea
+.gradle
+*.iml
